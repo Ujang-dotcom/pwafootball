@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Football PL</title>
+    <meta name="description" content="Football News" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" type="image/png" sizes="50x50" href="/img/icon.png">
+    <link rel="apple-touch-icon" href="/img/icon.png">
+    <link rel="stylesheet" href="/css/materialize.min.css" />
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="manifest" href="/manifest.json" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <meta name="theme-color" content="#4b0082" />
+  </head>
+  <body>
+
+  
+
+    <!-- Preloader -->
+    <div class="preloader-background">
+      <div class="preloader-wrapper big active">
+        <div class="spinner-layer spinner-green-only">
+          <div class="circle-clipper left">
+            <div class="circle"></div>
+          </div>
+          <div class="gap-patch">
+            <div class="circle"></div>
+          </div>
+          <div class="circle-clipper right">
+            <div class="circle"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- Navigasi -->
+    <nav class="purple darken-4" role="navigation">
+      <div class="nav-wrapper container">
+        <a href="#" class="brand-logo" id="logo-container"><img alt="icon-white" src="/img/icon-white.png" onerror="this.onerror=null;this.src='/img/icon-white.png';" width="35"> Football PL</a>
+      </div>
+    </nav>
+
+    <!-- Akhir Navigasi -->
+    <div class = "container">
+      <div class="row detailcard">
+        <div class="col s12 m8 l8 offset-l2 offset-m2  ">
+          <div class="card grey lighten-5">
+            <div id="fabFav" class="action-btn right">
+              <a class="btn-floating btn-large purple">
+                <i id="iconFav" class="large material-icons">favorite_border</i>
+              </a>
+            </div>
+            <a href="javascript:history.go(-1)" class="btn-large purple">
+                <i id="iconFav" class="large material-icons">arrow_back</i>
+            </a>
+            <div class="card-content">
+              <div style="text-align: center">
+                <img id="logo" alt="data.crestUrls" align="center" width="100" height="100" vspace="25">
+                <h4 id="clubName"></h4>
+              </div>
+              <hr size="12px">
+            </div>
+            <!-- membuat tabs di dalam card -->
+            <div class="card-tabs">
+              <ul class="tabs tabs-fixed-width">
+                <li class="tab"><a class="active purple-text" href="#teamprofile">Team profile</a></li>
+                <li class="tab"><a href="#squad" class="purple-text">SQUAD</a></li>
+              </ul>
+              <div class="card-content ">
+                
+                <div id="teamprofile">
+                  <table>
+                    <tbody>
+                      <tr>
+                        <td>Name :</td>
+                        <td id="name"></td>
+                      </tr>
+                      <tr>
+                        <td>Short Name :</td>
+                        <td id="shortName"></td>
+                      </tr>
+                      <tr>
+                        <td>Tla :</td>
+                        <td id="tla"></td>
+                      </tr>
+                      <tr>
+                        <td>Club Colors :</td>
+                        <td id="clubColors"></td>
+                      </tr>
+                      <tr>
+                        <td>Address :</td>
+                        <td id="address"> </td>
+                      </tr>
+                      <tr>
+                        <td>Phone :</td>
+                        <td id="phone"></td>
+                      </tr>
+                      <tr>
+                        <td>Website :</td>
+                        <td id="website"></td>
+                      </tr>
+                      <tr>
+                        <td>Email :</td>
+                        <td id="email"></td>
+                      </tr>
+                      <tr>
+                        <td>Founded :</td>
+                        <td id="founded"></td>
+                      </tr>   
+                      <tr>
+                        <td>Venue :</td>
+                        <td id="venue"></td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+                <div id="squad">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <footer class="page-footer purple darken-4">
+      <div class="container">
+        <div class="row">
+          <div class="col l6 s12">
+            <h5 class="white-text">Tentang Football PL</h5>
+            <p class="grey-text text-lighten-4">Football PLadalah website yang berisikan data Liga premiere league liga inggris</p>
+          </div>
+          <div class="col l4 offset-l2 s12">
+            <h5 class="white-text">Follow sosial media kami</h5>
+            <ul>
+              <li><a class="grey-text text-lighten-3" href="#!"><i class="fab fa-instagram"></i> Instagram</a></li>
+              <li><a class="grey-text text-lighten-3" href="#!"><i class="fab fa-facebook-square"></i> Facebook</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer-copyleft">
+        <div class="container">
+          <center>© 2020 Copyright Football PL</center>
+        </div>
+      </div>
+    </footer>
+
+
+    <script type="text/javascript" src="https://unpkg.com/snarkdown@1.0.2/dist/snarkdown.umd.js"></script>
+    <script type="text/javascript" src="/js/materialize.min.js"></script>
+    <script type="text/javascript" src="/js/api.js"></script>
+    <script type="text/javascript" src="/js/resultData.js"></script>
+    
+    <script type="text/javascript" src="/js/favTeam.js"></script>
+    <script type="text/javascript" src="/js/db.js"></script>
+    <script type="text/javascript" src="/js/database.js"></script>
+    <script type="text/javascript" src="/js/idb.js"></script>
+    <script src="/js/preloader.js"></script>
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+    <script type="text/javascript" src="/js/serviceWorker.js"></script>
+    <!-- script tabs -->
+    <script src="/js/myScript.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,36 @@
+.preloader-background {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #eee;
+
+  position: fixed;
+  z-index: 100;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;  
+}
+.detailcard{
+  margin-top: 60px;
+}
+.slider h3,
+.slider h5 {
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.5);
+}
+.indicator-item .active {
+  background-color: red;
+}
+.preloader-background {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #eee;
+
+  position: fixed;
+  z-index: 100;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;  
+}

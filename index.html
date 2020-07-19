@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Football PL</title>
+    <meta name="description" content="Football News" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" type="image/png" sizes="50x50" href="img/icon.png">
+    <link rel="apple-touch-icon" href="img/icon.png">
+    <link rel="stylesheet" href="css/materialize.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="manifest" href="/manifest.json" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <meta name="theme-color" content="#4b0082" />
+  </head>
+  <body>
+
+
+
+    <!-- Navigasi -->
+    <nav class="purple darken-4" role="navigation">
+      <div class="nav-wrapper container">
+        <a href="#" class="brand-logo" id="logo-container"><img alt="icon-white" src="img/icon-white.png" onerror="this.onerror=null;this.src='img/icon-white.png';" width="35"> Football PL</a>
+        <a href="#" class="sidenav-trigger" data-target="nav-mobile">&#9776;</a>
+
+        <ul class="topnav right hide-on-med-and-down"></ul>
+        <ul class="sidenav" id="nav-mobile"></ul>
+      </div>
+    </nav>
+    <!-- Akhir Navigasi -->
+
+    <div class="slider">
+      <ul class="slides">
+        <li>
+          <img src="img/slider/1.jpg" onerror="this.onerror=null;this.src='img/slider/1.jpg';">
+          <div class="caption center-align">
+            <h3>Football PL</h3>
+            <h5>Website informasi seputar sepak bola liga inggris</h5><br>
+            <a class="waves-effect waves-light btn red darken-2"><i class="material-icons left">search</i>Cari Pemain atau team</a>
+          </div>
+        </li>
+        <li>
+          <img src="img/slider/2.jpg" onerror="this.onerror=null;this.src='img/slider/2.jpg';">
+          <div class="caption center-align">
+            <h3>Football PL</h3>
+            <h5>Website informasi seputar sepak bola liga inggris</h5><br>
+            <a class="waves-effect waves-light btn red darken-2"><i class="material-icons left">search</i>Cari Pemain atau team</a>
+          </div>
+        </li>
+        <li>
+          <img src="img/slider/3.jpg" onerror="this.onerror=null;this.src='img/slider/3.jpg';">
+          <div class="caption center-align">
+            <h3>Football PL</h3>
+            <h5>Website informasi seputar sepak bola liga inggris</h5><br>
+            <a class="waves-effect waves-light btn red darken-2"><i class="material-icons left">search</i>Cari Pemain atau team</a>
+          </div>
+        </li>
+      </ul>
+    </div>
+ 
+
+    <div class="container" id="body-content"></div>
+
+    <footer class="page-footer purple darken-4">
+      <div class="container">
+        <div class="row">
+          <div class="col l6 s12">
+            <h5 class="white-text">Tentang Football PL</h5>
+            <p class="grey-text text-lighten-4">Football PLadalah website yang berisikan data Liga premiere league liga inggris</p>
+          </div>
+          <div class="col l4 offset-l2 s12">
+            <h5 class="white-text">Follow sosial media kami</h5>
+            <ul>
+              <li><a class="grey-text text-lighten-3" href="#!"><i class="fab fa-instagram"></i> Instagram</a></li>
+              <li><a class="grey-text text-lighten-3" href="#!"><i class="fab fa-facebook-square"></i> Facebook</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer-copyleft">
+        <div class="container">
+          <center>© 2020 Copyright Football PL</center>
+        </div>
+      </div>
+    </footer>
+
+    
+    <script src="js/api.js"></script>
+    <script src="js/competition.js"></script>
+    <script src="js/database.js"></script>
+    <script src="js/db.js"></script>
+    <script src="js/favoriteData.js"></script>
+    <script src="js/idb.js"></script>
+    <script src="js/match.js"></script>
+    <script src="js/materialize.min.js"></script>
+    <script src="js/nav.js"></script>
+    <script src="js/resultData.js"></script>
+    <script src="js/standing.js"></script>
+    <script src="js/sw.js"></script>
+    <script src="js/topScore.js"></script>
+    
+    
+    <!-- AJAX -->
+    <script
+    src="https://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+
+
+    <script type="text/javascript" src="js/serviceWorker.js"></script>
+    <script>
+      // REQUEST API UNTUK PERTAMA KALI
+      document.addEventListener("DOMContentLoaded", function () {
+        var page = window.location.hash.substr(1);
+      });
+      const slider = document.querySelectorAll('.slider');
+      M.Slider.init(slider);
+    </script>
+
+  </body>
+</html>
