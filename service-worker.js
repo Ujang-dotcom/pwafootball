@@ -64,6 +64,10 @@ workbox.precaching.precacheAndRoute([
         revision: '1'
     },
     {
+        url: '/js/competition.js',
+        revision: '1'
+    },
+    {
         url: '/js/database.js',
         revision: '1'
     },
@@ -85,6 +89,10 @@ workbox.precaching.precacheAndRoute([
     },
     {
         url: '/js/idb.js',
+        revision: '1'
+    },
+    {
+        url: '/js/match.js',
         revision: '1'
     },
     {
@@ -116,7 +124,15 @@ workbox.precaching.precacheAndRoute([
         revision: '1'
     },
     {
+        url: '/js/standing.js',
+        revision: '1'
+    },
+    {
         url: '/js/sw.js',
+        revision: '1'
+    },
+    {
+        url: '/js/topScore.js',
         revision: '1'
     },
     {
