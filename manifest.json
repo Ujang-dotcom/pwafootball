@@ -3,7 +3,7 @@
     "gcm_sender_id": "858559063539",
     "short_name": "Football",
     "description": "Football info",
-    "start_url": "/index.html",
+    "start_url": "/pwafootball/index.html",
     "display": "standalone",
     "background_color": "#4b0082",
     "theme_color": "#4b0082",

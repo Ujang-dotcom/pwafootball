@@ -17,7 +17,6 @@ function standings(data) {
                     </p>
                     </a>
                     </td>
-                    <td></td>
                     <td><center>`+ club.playedGames +`</center></td>
                     <td><center>`+ club.won +`</center></td>
                     <td><center>`+ club.draw +`</center></td>
