@@ -14,7 +14,7 @@ function standings(data) {
                     <br>
                     </p>
                     <p class="hide-on-med-and-up">
-                    <img src=${club.team.crestUrl} onerror="this.onerror=null;this.src='${club.team.crestUrl}';"  alt="logo club" style="float:left;width:22px;height:22px;margin-right:1px">
+                    <img src=${club.team.crestUrl} onerror="this.onerror=null;this.src='${club.team.crestUrl}';"  alt="logo club" style="float:left;width:22px;height:22px;margin-right:1px"><br>
                     </p>
                     </a>
                     </td>
