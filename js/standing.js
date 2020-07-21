@@ -9,8 +9,9 @@ function standings(data) {
                     <td>
                     <a href="./pages/detail-pages/detailtim.html?id=${club.team.id}">
                     <p class="hide-on-small-only">
-                    <img class = "show-on-medium-and-up show-on-medium-and-down" src=${club.team.crestUrl} onerror="this.onerror=null;this.src='${club.team.crestUrl}';"  alt="logo club" style="float:left;width:22px;height:22px;margin-right:20px"><br>
+                    <img class = "show-on-medium-and-up show-on-medium-and-down" src=${club.team.crestUrl} onerror="this.onerror=null;this.src='${club.team.crestUrl}';"  alt="logo club" style="float:left;width:22px;height:22px;margin-right:20px">
                     ${club.team.name}
+                    <br>
                     </p>
                     <p class="hide-on-med-and-up">
                     <img src=${club.team.crestUrl} onerror="this.onerror=null;this.src='${club.team.crestUrl}';"  alt="logo club" style="float:left;width:22px;height:22px;margin-right:1px">
