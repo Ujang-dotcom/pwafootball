@@ -6,192 +6,192 @@ importScripts('https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox
         revision: '1'
     },
     {
-        url: '/manifest.json',
+        url: '/pwafootball/manifest.json',
         revision: '1'
     },
     
     {
-        url: '/index.html',
+        url: '/pwafootball/index.html',
         revision: '1'
     },
     {
-        url: '/nav.html',
+        url: '/pwafootball/nav.html',
         revision: '1'
     },
     {
-        url: '/pages/detail-pages/detailtim.html',
+        url: '/pwafootball/pages/detail-pages/detailtim.html',
         revision: '1'
     },
     {
-        url: '/pages/detail-pages/detailplayer.html',
+        url: '/pwafootball/pages/detail-pages/detailplayer.html',
         revision: '1'
     },
     {
-        url: '/pages/competition.html',
+        url: '/pwafootball/pages/competition.html',
         revision: '1'
     },
     {
-        url: '/pages/home.html',
+        url: '/pwafootballpages/home.html',
         revision: '1'
     },
     {
-        url: '/pages/league.html',
+        url: '/pwafootball/pages/league.html',
         revision: '1'
     },
     {
-        url: '/pages/match.html',
+        url: '/pwafootball/pages/match.html',
         revision: '1'
     },
     {
-        url: '/pages/myfavorite.html',
+        url: '/pwafootball/pages/myfavorite.html',
         revision: '1'
     },
     {
-        url: '/css/materialize.min.css',
+        url: '/pwafootball/css/materialize.min.css',
         revision: '1'
     },
     {
-        url: '/css/style.css',
+        url: '/pwafootball/css/style.css',
         revision: '1'
     },
     {
-        url: '/js/api.js',
+        url: '/pwafootball/js/api.js',
         revision: '1'
     },
     {
-        url: '/js/competition.js',
+        url: '/pwafootball/js/competition.js',
         revision: '1'
     },
     {
-        url: '/js/database.js',
+        url: '/pwafootball/js/database.js',
         revision: '1'
     },
     {
-        url: '/js/db.js',
+        url: '/pwafootball/js/db.js',
         revision: '1'
     },
     {
-        url: '/js/favoriteData.js',
+        url: '/pwafootball/js/favoriteData.js',
         revision: '1'
     },
     {
-        url: '/js/favPlayer.js',
+        url: '/pwafootball/js/favPlayer.js',
         revision: '1'
     },
     {
-        url: '/js/favTeam.js',
+        url: '/pwafootball/js/favTeam.js',
         revision: '1'
     },
     {
-        url: '/js/idb.js',
+        url: '/pwafootball/js/idb.js',
         revision: '1'
     },
     {
-        url: '/js/match.js',
+        url: '/pwafootball/js/match.js',
         revision: '1'
     },
     {
-        url: '/js/materialize.min.js',
+        url: '/pwafootball/js/materialize.min.js',
         revision: '1'
     },
     {
-        url: '/js/myScript.js',
+        url: '/pwafootball/js/myScript.js',
         revision: '1'
     },
     {
-        url: '/js/nav.js',
+        url: '/pwafootball/js/nav.js',
         revision: '1'
     },
     {
-        url: '/js/notification.js',
+        url: '/pwafootball/js/notification.js',
         revision: '1'
     },
     {
-        url: '/js/preloader.js',
+        url: '/pwafootball/js/preloader.js',
         revision: '1'
     },
     {
-        url: '/js/resultData.js',
+        url: '/pwafootball/js/resultData.js',
         revision: '1'
     },
     {
-        url: '/js/serviceWorker.js',
+        url: '/pwafootball/js/serviceWorker.js',
         revision: '1'
     },
     {
-        url: '/js/standing.js',
+        url: '/pwafootball/js/standing.js',
         revision: '1'
     },
     {
-        url: '/js/sw.js',
+        url: '/pwafootball/js/sw.js',
         revision: '1'
     },
     {
-        url: '/js/topScore.js',
+        url: '/pwafootball/js/topScore.js',
         revision: '1'
     },
     {
-        url: '/img/slider/1.jpg',
+        url: '/pwafootball/img/slider/1.jpg',
         revision: '1'
     },
     {
-        url: '/img/slider/2.jpg',
+        url: '/pwafootball/img/slider/2.jpg',
         revision: '1'
     },
     {
-        url: '/img/slider/3.jpg',
+        url: '/pwafootball/img/slider/3.jpg',
         revision: '1'
     },
     {
-        url: '/img/icon-72x72.png',
+        url: '/pwafootball/img/icon-72x72.png',
         revision: '1'
     },
     {
-        url: '/img/icon-96x96.png',
+        url: '/pwafootball/img/icon-96x96.png',
         revision: '1'
     },
     {
-        url: '/img/icon-128x128.png',
+        url: '/pwafootball/img/icon-128x128.png',
         revision: '1'
     },
     {
-        url: '/img/icon-144x144.png',
+        url: '/pwafootball/img/icon-144x144.png',
         revision: '1'
     },
     {
-        url: '/img/icon-152x152.png',
+        url: '/pwafootball/img/icon-152x152.png',
         revision: '1'
     },
     {
-        url: '/img/icon-192x192.png',
+        url: '/pwafootball/img/icon-192x192.png',
         revision: '1'
     },
     {
-        url: '/img/icon-384x384.png',
+        url: '/pwafootball/img/icon-384x384.png',
         revision: '1'
     },
     {
-        url: '/img/icon-512x512.png',
+        url: '/pwafootball/img/icon-512x512.png',
         revision: '1'
     },
     {
-        url: '/img/icon.png',
+        url: '/pwafootball/img/icon.png',
         revision: '1'
     },
     {
-        url: '/img/icon-white.png',
+        url: '/pwafootball/img/icon-white.png',
         revision: '1'
     },
     {
-        url: '/img/pl-white.png',
+        url: '/pwafootball/img/pl-white.png',
         revision: '1'
     },
     {
-        url: '/img/pl.png',
+        url: '/pwafootball/img/pl.png',
         revision: '1'
     },
     {
-        url: '/img/premiere-league.jpg',
+        url: '/pwafootball/img/premiere-league.jpg',
         revision: '1'
     },
 ],  {
@@ -260,7 +260,7 @@ workbox.routing.registerRoute(
 );
 
 workbox.routing.registerRoute(
-    new RegExp("/pages/"),
+    new RegExp("/pwafootball/pages/"),
     workbox.strategies.staleWhileRevalidate({
         cacheName: "pages"
     })
