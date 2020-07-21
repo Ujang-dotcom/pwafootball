@@ -1,10 +1,6 @@
 importScripts('https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js');
 
-
-
-
-///Precaching App Shell
-workbox.precaching.precacheAndRoute([
+    workbox.precaching.precacheAndRoute([
     {
         url: '/',
         revision: '1'
@@ -23,13 +19,12 @@ workbox.precaching.precacheAndRoute([
         revision: '1'
     },
     {
-        url: 'pages/detail-pages/detailtim.html',
+        url: '/pages/detail-pages/detailtim.html',
         revision: '1'
     },
     {
-        url: 'pages/detail-pages/detailplayer.html',
+        url: '/pages/detail-pages/detailplayer.html',
         revision: '1'
-        
     },
     {
         url: '/pages/competition.html',
