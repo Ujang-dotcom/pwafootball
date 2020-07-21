@@ -176,7 +176,7 @@ function getDetailKlubById() {
               dataSquadHTML += `
               <tr>
                 <td >
-                <a href="/pages/detail-pages/detailplayer.html?id=${squad.id}"> ${squad.name}</a>
+                <a href="/pwafootball/pages/detail-pages/detailplayer.html?id=${squad.id}"> ${squad.name}</a>
                 </td>
                 <td>${squad.position}</td>
               </tr>
@@ -223,7 +223,7 @@ function getDetailKlubById() {
           dataSquadHTML += `
           <tr>
             <td >
-              <a href="/pages/detail-pages/detailplayer.html?id=${squad.id}"> ${squad.name}</a>
+              <a href="/pwafootball/pages/detail-pages/detailplayer.html?id=${squad.id}"> ${squad.name}</a>
             </td>
             <td >${squad.position}</td>
           </tr>
