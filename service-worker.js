@@ -10,7 +10,7 @@ workbox.precaching.precacheAndRoute([
         revision: '1'
     },
     {
-        url: 'manifest.json',
+        url: '/manifest.json',
         revision: '1'
     },
     
