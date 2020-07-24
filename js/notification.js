@@ -1,4 +1,4 @@
-// Periksa fitur Notification API
+// Periksa fitur Notification API //
     if ("Notification" in window) {
       requestPermission();
     } else {
