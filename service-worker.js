@@ -123,10 +123,6 @@ importScripts('https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox
         revision: '1'
     },
     {
-        url: '/pwafootball/js/sw.js',
-        revision: '1'
-    },
-    {
         url: '/pwafootball/js/topScore.js',
         revision: '1'
     },
@@ -301,3 +297,24 @@ workbox.routing.registerRoute(
     new RegExp('.*\.png'),
     workbox.strategies.cacheFirst()
 );
+
+self.addEventListener('push', function(event) {
+  let body;
+  if (event.data) {
+    body = event.data.text();
+  } else {
+    body = 'Push message no payload';
+  }
+  let options = {
+    body: body,
+    icon: 'img/icon-72x72.png',
+    vibrate: [100, 50, 100],
+    data: {
+      dateOfArrival: Date.now(),
+      primaryKey: 1
+    }
+  };
+  event.waitUntil(
+    self.registration.showNotification('Push Notification', options)
+  );
+});
